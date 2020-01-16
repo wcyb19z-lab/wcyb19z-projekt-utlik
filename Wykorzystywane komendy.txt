@@ -2,12 +2,10 @@
 
 
 nmap -sn 192.168.56.*		/ skanowanie dla znajdowania innych maszyn w sieci.
+nmap 192.168.56.* -sSV		/ 
 
-nmap 192.168.56.* -sSV
 openvas-setup			/ dla uruchomienia skryptu inicjalizacyjnego openvas-setup 
-w celu zainicjowania wtyczek
- 				i uruchomienia różnych usług
- wymaganych przez OpenVAS
+				w celu zainicjowania wtyczek i uruchomienia różnych usług wymaganych przez OpenVAS
 
 
 /etc/init.d/nessusd start  	/uruchomienie nessusa
@@ -36,7 +34,7 @@ dirb http://192.168.56.103/			/narzędzie dirb, przydatne dla stron internetowyc
 
 wpscan --url http://192.168.56.103/wordpress/ -U c0rrupt3d_brain -P /usr/share/wordlists/rockyou.txt
 
-						//narzędzie wpscan (taki brutforce)
+						/narzędzie wpscan (taki brutforce)
 
 
 
