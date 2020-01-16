@@ -1,19 +1,19 @@
 ### EVM-1
 
- Zaczynamy od scanowania za pomocą nmapa.
+ Zaczynamy od skanowania za pomocą nmapa.
 
 ![27](https://github.com/utlik/Images/blob/EVM-1/Screenshot%20from%202020-01-16%2016-08-27.png)
 
- Jak widzimy http od razu sprawdzamy stronę
+ Jak widzimy http od razu sprawdzamy stronę:
 
 ![strona](https://github.com/utlik/Images/blob/EVM-1/strona.PNG)
 
  Możemy zauważyć wskazówkę: `you can find me at /wordpress/ im vulnerable webapp :)`
-Dla tego zaczynamy szukać dirbem
+Dla tego zaczynamy szukać dirbem:
 
 ![03](https://github.com/utlik/Images/blob/EVM-1/Screenshot%20from%202020-01-16%2016-33-03.png)
 
-Widzimy, że jest jakaś strona 192.168.56.103/wordpress. Sprawdzamy:
+Widzimy, że jest jakaś strona http://192.168.56.103/wordpress. Sprawdzamy:
 
 ![snimok](https://github.com/utlik/Images/blob/EVM-1/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA.PNG)
 
@@ -21,7 +21,7 @@ Co? Komentarze?
 
 ![corru](https://github.com/utlik/Images/blob/EVM-1/corru.PNG)
 
-`you can run wpscan (aggressive scan mode)` okej, co to jest na narzędzie? Zainstalujmy go
+`You can run wpscan (aggressive scan mode)`. Okej, co to jest na narzędzie? Zainstalujmy go
 
 ![install](https://github.com/utlik/Images/blob/EVM-1/install.PNG)
 
@@ -44,6 +44,8 @@ Za pomocą tego wpscan szukamy hasło:
 
 Udało się, a teraz możemy popatrzeć na stronę wewnątrz.
 
+![login](https://github.com/utlik/Images/blob/EVM-1/login.PNG)
+
 ![1](https://github.com/utlik/Images/blob/EVM-1/1.PNG)
 
 ![weszlismy](https://github.com/utlik/Images/blob/EVM-1/weszlismy.PNG)
@@ -51,8 +53,6 @@ Udało się, a teraz możemy popatrzeć na stronę wewnątrz.
 ![comments](https://github.com/utlik/Images/blob/EVM-1/comments.PNG)
 
 Za pomocą exploitu próbujemy wejść:
-
-![login](https://github.com/utlik/Images/blob/EVM-1/login.PNG)
 
 ![06](https://github.com/utlik/Images/blob/EVM-1/Screenshot%20from%202020-01-16%2017-53-06.png)
 
