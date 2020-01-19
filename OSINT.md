@@ -49,3 +49,6 @@ Na tym Screenu może nas zainteresować link "Dane adresowy". Spójrzmy na niego
 * https://www.uw.edu.pl/wp-content/uploads/2019/02/m.2019.24.post_.2.pdf
 * https://www.uw.edu.pl/kontakt/
 * https://www.pedagog.uw.edu.pl/fckeditor/userfiles/file/Op%C5%82aty_polacy_2018-19.pdf
+* http://www.wz.uw.edu.pl/pracownicy
+* http://www.chem.uw.edu.pl/wp-content/uploads/2020/01/KSI%C3%84%C2%84%C3%85%C2%BBKA-TELEFONICZNA-1-20.pdf
+* https://www.uw.edu.pl/wp-content/uploads/2017/03/mapa-akademiki-uw.pdf
