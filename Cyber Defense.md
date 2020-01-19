@@ -1,6 +1,6 @@
 ### Cyber Defense
 
-1. Szukamy pliki PCAP w `/opt/samples` i za pomoca polecenia `sudo s-import-pcap zeus-sample-1.pcap' importujemy je w kibanu.
+1. Szukamy pliki PCAP w `/opt/samples` i za pomoca polecenia `sudo s-import-pcap zeus-sample-1.pcap` importujemy je.
 
 ![9E](https://github.com/utlik/Images/blob/master/8u7PO9Hk_9E.jpg)
 
